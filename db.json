@@ -1,13 +1,51 @@
 {
-  "posts": [
-    { "id": "1", "title": "a title", "views": 100 },
-    { "id": "2", "title": "another title", "views": 200 }
+  "users": [
+    {
+      "id": 1,
+      "name": "Lev Yelen",
+      "email": "yelev@gmail.com",
+      "nationality": "Russian"
+    },
+    {
+      "id": 2,
+      "name": "Abdullah Al-Farid",
+      "email": "farid@yahoo.com",
+      "nationality": "Bangladeshi"
+    }
   ],
-  "comments": [
-    { "id": "1", "text": "a comment about post 1", "postId": "1" },
-    { "id": "2", "text": "another comment about post 1", "postId": "1" }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "news": [
+    {
+      "id": 1,
+      "title": "Govt Announces New IT Farm",
+      "body": "A new state-of-the-art tech park will be established in Chattogram",
+      "author_id": 1,
+      "comments": [
+        {
+          "id": 1,
+          "text": "Sound plan.",
+          "user_id": 2,
+          "timestamp": "2025-12-04T10:30:00Z"
+        },
+        {
+          "id": 2,
+          "text": "Hopefully it'll be corruption-free.",
+          "user_id": 3,
+          "timestamp": "2025-12-04T11:00:00Z"
+        },
+        {
+          "id": 1765386785164,
+          "text": "Welcome, sir.",
+          "user_id": 1,
+          "timestamp": "2025-12-10T17:13:05.164Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Local Startup Begins Exhibition",
+      "body": "Chattogram has been part of a new initiative involving multinational cooperation on IT and industry.",
+      "author_id": 2,
+      "comments": []
+    }
+  ]
 }
